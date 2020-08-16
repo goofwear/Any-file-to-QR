@@ -1,6 +1,7 @@
 # Any file to QR
 This is script that can convert any file to splited QR codes
 
+**Try also another branch [ascii85](https://github.com/BxOxSxS/Any-file-to-QR/tree/ascii85) witch is more effective**
 ## How it works
 * Encode:
      1. Converts file to base64 text file
@@ -27,4 +28,4 @@ Example of usage: `bash qr.sh create file.zip`, `bash qr.sh convert file.zip_qr`
 
 ## But Why?
 I really don't know. The process takes an unprofitable amount of memory and time:
-1 Mib encode to 3,8Mib in 480 png files in about 5 seconds and deodes in about 1 minute but I have done it. You can now convert your favorite song into QR codes and hang it on the wall
+1 Mib encode to 3,8Mib in 480 png files in about 5 seconds and decodes in about 1 minute but I have done it. You can now convert your favorite song into QR codes and hang it on the wall
